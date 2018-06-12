@@ -25,7 +25,7 @@ $( document ).ready(function(){
 
     //i will create a function to reset the game every round
     function reset(){
-        var random=Math.floor(Math.random()*81+19)
+        random=Math.floor(Math.random()*81+19)
         $('#randomNumber').text(random);
         crystalNum1 = Math.floor(Math.random()*11+1)
         crystalNum2 = Math.floor(Math.random()*11+1)
