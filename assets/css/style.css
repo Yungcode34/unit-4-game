@@ -1,0 +1,72 @@
+body,
+html{
+    background-image: url("https://orig00.deviantart.net/938d/f/2011/182/b/2/cave_interior_background_by_sketcheth-d3kpvx8.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    
+    
+}
+#title{
+    background-color: #0000ff;
+    height: 60px;
+    width: 30%;
+    position: relative;
+    margin-bottom: 10px;
+}
+#instructions{
+    background-color: #2828ff;
+    height: 230px;
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+#stats{
+    height: 100px;
+    width: 50%;
+    margin-bottom: 10px;
+}
+#presult{
+    background-color: #3636f9
+;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+#winsloss{
+    background-color: #3636f9
+;
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#crystals{
+    margin-bottom: 10px;
+}
+#yourscore{
+    background-color: #4747ff;
+    height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 25px; 
+}
+#score{
+    background-color: #4747ff;
+    height: 100px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    position: relative;
+    left: 10px;
+    text-align: center;
+    line-height: 50px; 
+    color: white;
+}
