@@ -1,61 +1,79 @@
 body,
 html{
-    background-image: url("https://orig00.deviantart.net/938d/f/2011/182/b/2/cave_interior_background_by_sketcheth-d3kpvx8.jpg");
+    background-image: url("https://media2.giphy.com/media/wfzmCx4IWvxMQ/giphy.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin: 0;
     padding: 0;
+    
 }
-#container{
-    
-    
+#container-fluid{
+
+}
+#wrap{
+    position: relative;
 }
 #title{
     background-color: #0000ff;
     height: 60px;
     width: 30%;
     position: relative;
+    margin: auto;
     margin-bottom: 10px;
+    border-style: solid;
+    
 }
 #instructions{
     background-color: #2828ff;
     height: 230px;
     width: 40%;
+    margin: auto;
     margin-bottom: 10px;
-
+    border-style: solid;
+    padding: 1px;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
 #stats{
+    position: relative;
+    left: 100px;
     height: 100px;
     width: 50%;
+    margin: auto;
     margin-bottom: 10px;
 }
 #presult{
-    background-color: #3636f9
-;
+    background-color: #3636f9;
     height: 100px;
     margin-bottom: 10px;
+    border-style: solid;
     
 }
 #winsloss{
-    background-color: #3636f9
-;
+    background-color: #3636f9;
     height: 100px;
     margin-left: 10px;
     margin-bottom: 10px;
+    border-style: solid;
 }
 #crystals{
     margin-bottom: 10px;
+    position: relative;
+    left: 425px;
 }
 #yourscore{
+    position: relative;
     background-color: #4747ff;
     height: 25px;
     margin-bottom: 10px;
     text-align: center;
     line-height: 25px; 
+    border-style: solid;
+    left: 450px;
+    
+
 }
 #score{
     background-color: #4747ff;
@@ -69,4 +87,13 @@ h2{
     text-align: center;
     line-height: 50px; 
     color: white;
+}
+#playerscore{
+
+}
+
+#text{
+position: relative;
+left: 525px;
+margin: auto;
 }
